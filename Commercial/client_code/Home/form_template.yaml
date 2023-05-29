@@ -1,0 +1,33 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {grid_position: 'NBHHJC,HRQODP'}
+  components: []
+- type: Image
+  properties: {role: null, vertical_align: center, height: '200', tooltip: '', border: '',
+    foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+    source: 'data:image/jpeg;base64,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',
+    spacing_below: small, background: '', horizontal_align: center}
+  name: image_1
+  layout_properties: {grid_position: 'UHPJKU,PDZVGY'}
+- type: RichText
+  properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+    foreground: '', visible: true, font_size: 30, content: 'This is Geoffrey Course
+      Shop! Enjoy :)', font: '', spacing_above: small, spacing_below: small, data: null,
+    background: '', format: markdown}
+  name: label
+  layout_properties: {grid_position: 'ZKOXLO,RJACDR'}
+  components:
+  - type: Button
+    properties: {role: secondary-color, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: View Courses, font_size: 22, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: true,
+      background: '', bold: true, underline: false, icon: 'fa:arrow-circle-right'}
+    name: view_courses
+    layout_properties: {grid_position: 'FRCAVJ,BLWHQL'}
+    event_bindings: {click: view_courses_click}
+is_package: true
